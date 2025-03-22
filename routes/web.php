@@ -5,7 +5,7 @@ use Livewire\Volt\Volt;
 
 Route::get('/', function () {
     return view ('web.homepage');
-});
+})->name('home');
 
 Route::get('/products', function () {
     return view ('web.products');
